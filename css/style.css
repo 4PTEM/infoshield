@@ -1024,6 +1024,7 @@ h1{
 .examples__more{
     background: url(../source/img/examples/morebg.jpg) center/cover;
     padding: 0 33px;
+    box-sizing: border-box;
 }
 
 .examples__more a{
