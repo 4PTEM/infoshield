@@ -1,7 +1,7 @@
-let reviews = document.querySelectorAll('.reviews__review');
-let slArrows = document.querySelectorAll('.cards-slider-control');
+const reviews = document.querySelectorAll('.reviews__review');
+const slArrows = document.querySelectorAll('.cards-slider-control');
 const anchors = document.querySelectorAll('a[href*="#"]');
-let burgerBtn = document.querySelector('.header__burger-btn');
+const burgerBtn = document.querySelector('.header__burger-btn');
 
 if(document.documentElement.clientWidth > 1100){
     document.querySelectorAll('.reviews__video-cont')[5].className += ' _active';
@@ -15,6 +15,7 @@ if(document.documentElement.clientWidth > 1100){
         });
     });
 }
+
 slArrows.forEach(btn => {
     btn.addEventListener('click', function(){
         let i = 1;
@@ -29,6 +30,7 @@ slArrows.forEach(btn => {
             
     }); 
 });
+
 for (let anchor of anchors) {
     anchor.addEventListener('click', function(e){
         e.preventDefault();
