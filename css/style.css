@@ -154,7 +154,7 @@ a{
     display: none;
 }
 
-@media (max-width:480px){
+@media (max-width:650px){
     .header__company text{
         display: none;
     }
@@ -277,7 +277,7 @@ h1{
         top: 10px;
     }
     .header__burger-menu{
-        background-color: #fff;
+        background-color: #041059;
         display: -webkit-flex;
         display: -moz-flex;
         display: -ms-flex;
@@ -295,13 +295,12 @@ h1{
         transition: 0.1s;
     }
     .header__burger-menu .links{
-        color: #868686;
+        color: #fff;
+        opacity: 0.8;
         padding: 10px 5px;
         display: none;
-        border-bottom: 1px solid #363636;
     }
     .header__burger-menu .links:active{
-        background: #aaa;
         color: #02fef6;
     }
     .header__burger-menu .links:hover{
@@ -338,13 +337,13 @@ h1{
 }
 
 .place1{
-    top: 6.5%;
+    top: 20%;
     left: 10%;
 }
 
 .place2{
     top: 3%;
-    left: 60%;
+    left: 66%;
 }
 
 .place3{
@@ -1111,7 +1110,7 @@ h1{
         margin: 5px;
     }
     .footer__contacts{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .footer__links{
         text-align: right;
@@ -1224,4 +1223,11 @@ h1{
         margin-bottom: 20px;
     }
 }
-
+@media (max-width:620px){
+    .screen-title{
+        padding-left: 30px;
+    }
+    .main-content__text{
+        padding-left: 30px;
+    }
+}
