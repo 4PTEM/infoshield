@@ -1108,8 +1108,10 @@ h1{
     .footer__social-nw{
         margin: 5px;
     }
-    .footer__links a{
-        margin-top: 30px;
+    .footer__contacts{
+        margin-bottom: 10px;
+    }
+    .footer__links{
         text-align: right;
     }
 }
